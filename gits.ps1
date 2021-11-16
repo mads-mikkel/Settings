@@ -28,3 +28,11 @@ git branch -m oldBranchName newBranchName
 # push renamed branch to remote, and rename remote branch (same command as above):
 git push -u origin newBranchName
 
+# show commit log (n is an integer )
+git log -n
+
+# Create a custom command to add and commit:
+git config --global alias.ac '!git add -A && git commit'
+
+# Use the custom command:
+git ac -m "The message"
