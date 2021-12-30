@@ -36,3 +36,6 @@ git config --global alias.ac '!git add -A && git commit'
 
 # Use the custom command:
 git ac -m "The message"
+
+# Add a remote to an initialized local repo (usage: git remote origin https://github.com/user/repoName.git):
+git remote add remoteName urlToRepoDotGit
