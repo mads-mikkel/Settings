@@ -31,7 +31,8 @@ git push -u origin newBranchName
 # show commit log (n is an integer )
 git log -n
 
-# Create a custom command to add and commit:
+# Create a custom command to add and commitcd vs
+:
 git config --global alias.ac '!git add -A && git commit'
 
 # Use the custom command:
