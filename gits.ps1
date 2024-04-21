@@ -40,3 +40,6 @@ git ac -m "The message"
 
 # Add a remote to an initialized local repo (usage: git remote origin https://github.com/user/repoName.git):
 git remote add remoteName urlToRepoDotGit
+
+# Update local list of remote branches:
+git remote update origin --prune
